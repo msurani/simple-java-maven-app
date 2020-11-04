@@ -22,14 +22,14 @@
       <name>Internal Releases</name>
       <!-- <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2/</url> --> 
       <!-- <url>http://localhost:8081/nexus/content/repositories/surani-releases/</url> --> 
-      <url>http://localhost:8081/repository/maven-releases</url>
+      <url>http://192.168.68.125:8081/repository/maven-releases</url>
       <!-- <url>http://centos-dell/nexus3/repository/maven-releases/</url> -->
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Internal Snapshots</name>
       <!-- <url>http://localhost:8081/nexus/content/repositories/maven-snapshots</url> -->
-      <url>http://localhost:8081/repository/maven-snapshots</url>
+      <url>http://192.168.68.125:8081/repository/maven-snapshots</url>
       <!-- <url>http://centos-dell/nexus3/repository/maven-snapshots</url> -->
     </snapshotRepository>	  
   </distributionManagement>
